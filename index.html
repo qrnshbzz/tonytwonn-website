@@ -14,11 +14,11 @@
             text-align: center;
         }
         header {
-            background-color: #0a0a0a;
+            background-color: #002147; /* Deep blue for Picasso's theme */
             padding: 20px;
             font-size: 2rem;
             font-weight: bold;
-            color: #00aaff;
+            color: #a9c4d9;
         }
         nav {
             margin: 20px 0;
@@ -42,7 +42,7 @@
         .section-title {
             font-size: 1.8rem;
             margin-bottom: 20px;
-            color: #0099cc;
+            color: #a9c4d9; /* Light Blue */
         }
         .music, .merchandise, .gallery {
             display: flex;
@@ -77,14 +77,16 @@
         <a href="#merchandise">Merchandise</a>
         <a href="#gallery">Gallery</a>
     </nav>
-
+<!-- Music Section -->
     <section id="music" class="music">
         <h2 class="section-title">Music</h2>
-        <p>Discover my latest tracks and albums below:</p>
-        <img src="music-album.jpg" alt="Music Album Cover">
-        <p>Listen on your favorite platforms!</p>\
+        <p>Listen to my latest tracks and albums:</p>
+        <iframe width="80%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/your-track-id&color=%2300aaff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+        </iframe>
+        <p>Also available on your favorite platforms!</p>\
     </section>
-
+<!-- Merchandise Section -->
     <section id="merchandise" class="merchandise">
         <h2 class="section-title">Merchandise</h2>
         <p>Shop exclusive Tony Twonn merchandise here:</p>
@@ -96,10 +98,15 @@
         <p>A visual journey of my music and live performances:</p>
         <img src="gallery.jpg" alt="Gallery Image">
     </section>
-
+<!-- Social Media Links -->
+    <section class="social-media">
+        <h2 class="section-title">Connect with me:</h2>
+        <a href="https://twitter.com/iamtonytwonn" target="_blank">Twiiter</a> |
+        <a href="https://instagram.com/iamtonytwonn" target="_blank">Instagram</a> |
+    
     <footer>
         &copy; 2024 Tony Twonn | All Rights Reserved
     </footer>
 </body>
 </html>
-}
+
